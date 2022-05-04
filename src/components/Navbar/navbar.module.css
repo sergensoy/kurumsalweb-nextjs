@@ -1,0 +1,78 @@
+/*------------kurumsal-content-nav------------*/
+
+#kurumsal-content-navbar {
+    border: 1px solid var(--primary-color);
+    padding: 0.6rem 1.2rem;
+}
+
+.kurumsal-content-nav .nav-item:nth-child(2n) {
+    border-right: 1px solid var(--primary-color);
+    border-left: 1px solid var(--primary-color);
+}
+
+.kurumsal-content-nav .nav-item>a {
+    color: var(--primary-color);
+    font-size: 1.20rem !important;
+}
+
+.kurumsal-content-nav a:hover {
+    font-weight: 600;
+    color: inherit;
+}
+
+.kurumsal-content-nav .nav-item>a:focus {
+    font-weight: 600;
+    color: inherit;
+}
+
+#kurumsal-content-navbar>ul .nav-item {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.activeNavLink {
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 0 1em
+}
+
+/*-------------End-----------*/
+
+/*-------------dropdown-menu-------------*/
+
+.dropdown-menu {
+    min-width: 7rem;
+    color: inherit;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: 0.91rem;
+    padding-top: 2.2rem;
+    left: unset;
+}
+
+.dropdown-menu li {
+    border-top: 1px solid var(--primary-color);
+}
+
+.dropdown-item {
+    color: var(--primary-color);
+    padding: .25rem .25rem;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: transparent;
+    color: inherit;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: 1px solid var(--primary-color);
+}
