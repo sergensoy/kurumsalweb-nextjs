@@ -8,32 +8,32 @@ export const MenuItems = [
         dropdownItems: [
             {
                 title: 'Tarihçemiz',
-                path: '/tarihcemiz',
+                path: '/hakkimizda/tarihcemiz',
                 cName: 'dropdown_link'
             },
             {
                 title: 'Politikalar',
-                path: '/politikalar',
+                path: '/hakkimizda/politikalar',
                 cName: 'dropdown_link'
             },
             {
                 title: 'Değerlerimiz',
-                path: '/degerlerimiz',
+                path: '/hakkimizda/degerlerimiz',
                 cName: 'dropdown_link'
             },
             {
                 title: 'Sertifikalarımız',
-                path: '/sertifikalarimiz',
+                path: '/hakkimizda/sertifikalarimiz',
                 cName: 'dropdown_link'
             },
             {
                 title: 'Raporlar',
-                path: '/raporlar',
+                path: '/hakkimizda/raporlar',
                 cName: 'dropdown_link'
             },
             {
                 title: 'Haberler',
-                path: '/haberler',
+                path: '/hakkimizda/haberler',
                 cName: 'dropdown_link'
             }
         ]
