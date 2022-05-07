@@ -14,15 +14,17 @@ export default function Layout({children}){
             </Head>
             <Header/>
             <main className={style.mainContainer}>
-                <div className="mainContainer_cornerSide">
-                    <Image src="/images/EST_Politikalarimiz_sl.png" width={300} height={400}/>
+                <div className={style.mainContainer_cornerSide}>
+                    <img className={style.leftSide_image} src="/images/EST_Politikalarimiz_sl.png" alt="cornersideImage" />
                 </div>
-                <div className="mainContainer_centerSide">
-                <Navbar/>
-                { children }
+                <div className={`${style.mainContainer_centerSide} container`}>
+                    <Navbar/>
+                    <main id="mainContent">
+                        { children }
+                    </main>
                 </div>
-                <div className="mainContainer_cornerSide">
-                    <Image src="/images/EST_Politikalarimiz_sg.png" width={250} height={400}/>
+                <div className={style.mainContainer_cornerSide}>
+                    <img className={style.rightSide_image} src="/images/EST_Politikalarimiz_sg.png" alt="cornersideImage" />
                 </div>
             </main>
         </div>

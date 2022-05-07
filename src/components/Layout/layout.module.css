@@ -1,11 +1,30 @@
 .mainContainer{
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: 250px auto 250px;
+    display: flex;
     background: url(https://workcube.eyupsabrituncer.com/add_options/display/kurumsal-web-1/img/EST_Politikalarimiz_bc1.jpg) repeat center center fixed;
+    min-height: 800px;
 }
 
-.mainContainer_cornerSide > img{
+.mainContainer_centerSide{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.mainContainer_cornerSide img{
+    position: sticky;
     max-width: 100%;
     height: auto;
 }
+
+.leftSide_image{
+    top: 5rem;
+}
+
+.rightSide_image{
+    top: 15rem;
+}
+
+/* @media screen and (max-width: 1200px) {
+    .mainContainer_cornerSide{
+        display: none;
+    }
+} */

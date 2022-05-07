@@ -1,0 +1,10 @@
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding-top: 1rem
+  }
+  
+  .hasDropdown:hover .dropdown_menu{
+    display: block;
+  }
