@@ -1,0 +1,13 @@
+.pagePath{
+    margin-bottom: 1.5rem;
+}
+
+.pagePath_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.pagePath_list_item:not(:last-child){
+    margin-right: .8rem;
+}

@@ -1,5 +1,5 @@
 const Tarihcemiz = () => {
-    return(
+    return (
         <h1>Tarihçemiz</h1>
     )
 }

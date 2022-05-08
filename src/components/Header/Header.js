@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import style from "./header.module.css"
 
 const Header = () => {
@@ -7,7 +8,11 @@ const Header = () => {
             <div className="container">
                 <div className={style.content}>
                     <div className={style.logo}>
-                        <Image src="/images/logoyeni.webp" width={385} height={52} className="img-fluid" alt="Eyüp Sabri Tuncer"/>
+                        <Link href="/">
+                            <a>
+                                <Image src="/images/logoyeni.webp" width={385} height={52} className="img-fluid" alt="Eyüp Sabri Tuncer"/>
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>
