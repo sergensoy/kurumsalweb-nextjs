@@ -1,0 +1,30 @@
+.layout{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.row{
+    display: flex;
+    grid-column: 1 / -1;
+    flex-wrap: wrap;
+}
+
+.firstRow{
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.secondRow{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column{
+    text-align: center;
+}
+
+.column_list{
+    list-style: none;
+    margin-top: 1rem;
+}

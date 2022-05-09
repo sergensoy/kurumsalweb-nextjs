@@ -1,0 +1,82 @@
+#sidebar{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.background{
+    position: absolute;
+    will-change: opacity;
+    height: 100%;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    opacity: 0;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: .5s ease;
+}
+
+.content .menu {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.content .menu .menu_item {
+    position: relative;
+    cursor: pointer;
+}
+
+.content .menu .menu_item .menu_item_link {
+    color: var(--primary-color);
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.content .menu .menu_item .menu_item_link:hover {
+    background: #33724df1;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.content .menu .menu_item .menu_item_link .dropdownIcon {
+    position: absolute;
+    right: 20px;
+    top: 38%;
+    transition: .3s ease;
+}
+
+.content .menu .menu_item .subMenu {
+    background: rgba(255, 255, 255, 0.1);
+    display: none;
+}
+
+.content .menu .menu_item .subMenu .menu_item_link {
+    padding-left: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
